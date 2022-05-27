@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navigation">
+        <div class="banner">
+            <img src="C:\my portfolio\images\banner.jpg" class="cover">
+            
+        </div>
+        <div class="navlink">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+   <section class="sec">
+       <header>
+           <div class="toggle"></div>
+           <a href="" class="btn">Hire Me</a>
+       </header>
+
+        <div class="imgBx">
+            <img src="C:\my portfolio\images\girl.jpg" class="cover">
+        </div>
+        <div class="content">
+            <h2>Hi, I am<br><span>Swapnil Hatkar</span></h2>
+            <p>Lorem ipsum dolo sit amet consectur adiisicing elit.temporis event ration dolor id wos quers cupditat troram qui sidtintio tenetur sunt quod incident quidem similique vel unde sing vetiis.</p>
+            <a href="file:///C:/my%20portfolio/MyCV.html" class="btn">
+                Downlod My CV       
+            </a>
+        </div>
+        <footer>
+            <ul class="sci">
+                <li><a href=""><img src="C:\my portfolio\images\facebook.png" alt=""></a></li>
+                <li><a href=""><img src="C:\my portfolio\images\twitter.png" alt=""></a></li>
+                <li><a href=""><img src="C:\my portfolio\images\instagram.png" alt=""></a></li>
+
+            </ul>
+            <p class="copyrigtText">SBH Production</p>
+        </footer>
+   </section>
+   <script>
+       let menuToggle = document.querySelector('.toggle');
+       let navigation = document.querySelector('.navigation');
+       let sec = document.querySelector('.sec');
+       menuToggle.onclick = function(){
+           menuToggle.classList.toggle('active');
+           navigation.classList.toggle('active');
+           sec.classList.toggle('active');
+
+
+       }
+   </script>
+</body>
+</html>
